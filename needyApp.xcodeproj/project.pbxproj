@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84DE773A2042DDA3004A1D21 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE77392042DDA3004A1D21 /* iOSDevCenters+GIF.swift */; };
+		84DE773C2042F261004A1D21 /* sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE773B2042F261004A1D21 /* sleepViewController.swift */; };
+		84F64E5B2042BA9200367A26 /* tiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F64E5A2042BA9200367A26 /* tiredViewController.swift */; };
 		84F6FE0620424DED006DFC04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6FE0520424DED006DFC04 /* AppDelegate.swift */; };
 		84F6FE0820424DED006DFC04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6FE0720424DED006DFC04 /* ViewController.swift */; };
 		84F6FE0B20424DED006DFC04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F6FE0920424DED006DFC04 /* Main.storyboard */; };
@@ -15,7 +18,8 @@
 		84F6FE1B20424DED006DFC04 /* needyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6FE1A20424DED006DFC04 /* needyAppTests.swift */; };
 		84F6FE2620424DED006DFC04 /* needyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6FE2520424DED006DFC04 /* needyAppUITests.swift */; };
 		84F6FE3B20427191006DFC04 /* BEBAS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F6FE3920427191006DFC04 /* BEBAS.ttf */; };
-		84F6FE3C20427191006DFC04 /* BebasNeueThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F6FE3A20427191006DFC04 /* BebasNeueThin.ttf */; };
+		84F6FE4020427B95006DFC04 /* BebasNeueLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F6FE3F20427B94006DFC04 /* BebasNeueLight.ttf */; };
+		84F6FE4820429BA0006DFC04 /* thirstyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6FE4720429BA0006DFC04 /* thirstyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84DE77392042DDA3004A1D21 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		84DE773B2042F261004A1D21 /* sleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepViewController.swift; sourceTree = "<group>"; };
+		84F64E5A2042BA9200367A26 /* tiredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiredViewController.swift; sourceTree = "<group>"; };
 		84F6FE0220424DED006DFC04 /* needyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = needyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F6FE0520424DED006DFC04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F6FE0720424DED006DFC04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +57,8 @@
 		84F6FE2520424DED006DFC04 /* needyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needyAppUITests.swift; sourceTree = "<group>"; };
 		84F6FE2720424DED006DFC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F6FE3920427191006DFC04 /* BEBAS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS.ttf; sourceTree = "<group>"; };
-		84F6FE3A20427191006DFC04 /* BebasNeueThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeueThin.ttf; sourceTree = "<group>"; };
+		84F6FE3F20427B94006DFC04 /* BebasNeueLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeueLight.ttf; sourceTree = "<group>"; };
+		84F6FE4720429BA0006DFC04 /* thirstyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirstyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +94,7 @@
 				84F6FE2420424DED006DFC04 /* needyAppUITests */,
 				84F6FE0320424DED006DFC04 /* Products */,
 				84F6FE3920427191006DFC04 /* BEBAS.ttf */,
-				84F6FE3A20427191006DFC04 /* BebasNeueThin.ttf */,
+				84F6FE3F20427B94006DFC04 /* BebasNeueLight.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +111,13 @@
 		84F6FE0420424DED006DFC04 /* needyApp */ = {
 			isa = PBXGroup;
 			children = (
+				84DE77392042DDA3004A1D21 /* iOSDevCenters+GIF.swift */,
+				84F64E5A2042BA9200367A26 /* tiredViewController.swift */,
+				84F6FE4720429BA0006DFC04 /* thirstyViewController.swift */,
 				84F6FE0520424DED006DFC04 /* AppDelegate.swift */,
 				84F6FE0720424DED006DFC04 /* ViewController.swift */,
 				84F6FE0920424DED006DFC04 /* Main.storyboard */,
+				84DE773B2042F261004A1D21 /* sleepViewController.swift */,
 				84F6FE0C20424DED006DFC04 /* Assets.xcassets */,
 				84F6FE0E20424DED006DFC04 /* LaunchScreen.storyboard */,
 				84F6FE1120424DED006DFC04 /* Info.plist */,
@@ -240,8 +252,8 @@
 			files = (
 				84F6FE1020424DED006DFC04 /* LaunchScreen.storyboard in Resources */,
 				84F6FE0D20424DED006DFC04 /* Assets.xcassets in Resources */,
-				84F6FE3C20427191006DFC04 /* BebasNeueThin.ttf in Resources */,
 				84F6FE3B20427191006DFC04 /* BEBAS.ttf in Resources */,
+				84F6FE4020427B95006DFC04 /* BebasNeueLight.ttf in Resources */,
 				84F6FE0B20424DED006DFC04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F6FE0820424DED006DFC04 /* ViewController.swift in Sources */,
+				84DE773A2042DDA3004A1D21 /* iOSDevCenters+GIF.swift in Sources */,
+				84DE773C2042F261004A1D21 /* sleepViewController.swift in Sources */,
+				84F6FE4820429BA0006DFC04 /* thirstyViewController.swift in Sources */,
 				84F6FE0620424DED006DFC04 /* AppDelegate.swift in Sources */,
+				84F64E5B2042BA9200367A26 /* tiredViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S52LDXJUK5;
 				INFOPLIST_FILE = needyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sieve.needyApp;
@@ -449,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S52LDXJUK5;
 				INFOPLIST_FILE = needyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sieve.needyApp;
