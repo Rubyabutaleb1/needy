@@ -1,4 +1,4 @@
-# needy
+# Needy
 
 ## Inspiration
 We began brainstorming ideas for our app by first reflecting on widespread issues we're currently facing in the United States, one of which, including the health repercussions that college students face every day. With our app, we hope to help college students better navigate through their exhausting and sleepless days.
